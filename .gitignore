@@ -1,3 +1,4 @@
 activate.bat
 database.sqlite
+raw_data/
 this_env/
