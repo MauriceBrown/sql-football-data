@@ -1,4 +1,6 @@
 activate.bat
 database.sqlite
+*checkpoint*
+*junk*
 raw_data/
 this_env/
