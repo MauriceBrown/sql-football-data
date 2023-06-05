@@ -2,6 +2,8 @@
 
 This data comes from a [Kaggle post](https://www.kaggle.com/code/dimarudov/data-analysis-using-sql/input).
 
+The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data using SQL, python, pandas, matplotlib and seaborn.
+
 ## Databse schema overview
 
 The data used by the notebook is stored in a **sqlite** database file with the schema defined below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). A bi-dreictional arrow indicates that the related columns are not the *primary* key in **either** table.
