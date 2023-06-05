@@ -18,3 +18,5 @@ The sqlite file is too large to be uploaded to github so I've saved the tables t
     * The **db_schema.csv** file contains the sqlite master table which can be used to create each table by copying the contents of the "sql" column
 
 Once you setup your python environment, open a command window and run the command `python create_db_from_csv.py` to create the database file.
+
+If you want to split the database into separate csv files you can run the command `python db_to_csv.py`.
