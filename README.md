@@ -1,6 +1,6 @@
 # European Football Data Analysis using SQL and pandas
 
-This data comes from a [Kaggle post](https://www.kaggle.com/code/dimarudov/data-analysis-using-sql/input).
+This data comes from a [Kaggle post](https://www.kaggle.com/datasets/hugomathien/soccer).
 
 The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data using SQL, python, pandas, matplotlib and seaborn.
 
