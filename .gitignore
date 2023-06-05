@@ -1,7 +1,9 @@
 activate.bat
 database.sqlite
 *checkpoint*
+*drawio
 *junk*
 raw_data/
+*sql
 *sqlite
 this_env/
