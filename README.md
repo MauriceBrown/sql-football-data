@@ -6,7 +6,9 @@ The data is stored in a sqlite database file with the schema defined below. The 
 
 ![DB Schema Diagram](https://github.com/MauriceBrown/sql-football-data/blob/main/DB%20Schema%20Diagram.png)
 
-The sqlite file is too large to be uploaded to github so I've saved the tables to separate csv file and created two utility scripts for working with the csv files and the database.
+## Getting the data
+
+The sqlite file is too large to be uploaded to github so I've saved the tables to separate csv files (found in the "csv_data" folder) and created two utility scripts for working with the csv files and the database.
 
 1. db_to_csv.py
     * This script save data from each table into a separate csv file
