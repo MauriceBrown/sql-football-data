@@ -6,7 +6,7 @@ This project was created as a demonstration of working with SQL. I'm using pytho
 
 The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data.
 
-**NOTE:** In most instances I would actually do alot of the data manipulation in pandas since it typically requires less code, however I've tried to make the examples more "SQL-heavy" here. Occasionally I'll show SQL and pandas versions of the same data manipulations to demonstrate this idea.
+**NOTE:** In most instances I would actually do a lot of the data manipulation in pandas since it typically requires less code, however I've tried to make the examples more "SQL-heavy" here. Occasionally I'll show SQL and pandas versions of the same data manipulations to illustrate this point.
 
 ## Database schema overview
 
