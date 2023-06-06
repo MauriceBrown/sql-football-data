@@ -1,3 +1,4 @@
+*.ipynm_checkpoints
 activate.bat
 database.sqlite
 *checkpoint*
