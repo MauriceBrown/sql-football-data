@@ -32,3 +32,16 @@ The sqlite file is too large to be uploaded to github so I've saved the tables t
 Once you setup your python environment, open a command window and run the command `python create_db_from_csv.py` to create the database file.
 
 If you want to split the database into separate csv files you can run the command `python db_to_csv.py`.
+
+## Other project ideas
+
+There are many other projects we could undertake with this data including those under the following headings:
+
+1. Create a prediction model for match results
+      * Create a classification model for match results (i.e. predict who will win)
+      * Create a model for predicting stats (number of goals, goal difference, number of cards etc)
+2. Player evaluation
+      * Analyse how players fit in different teams' playing systems or different leagues
+      * Analyse how well fifa predicts players' "potential" and career outcomes
+         * This would require more years of data
+      * Model player transfer value / wage expectations based on individual and team results
