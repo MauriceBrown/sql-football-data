@@ -7,7 +7,7 @@ if __name__ == '__main__':
     folder_path_base = os.path.dirname(__file__)
     folder_path_csv = os.path.join(folder_path_base, 'csv_data')
     
-    db_file_name = 'database2.sqlite'
+    db_file_name = 'database.sqlite'
     db_file_path = os.path.join(folder_path_base, db_file_name)        
 
     # Create db file
