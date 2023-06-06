@@ -4,6 +4,8 @@
 
 This project was created as a demonstration of working with SQL. I'm using python's built in sqlite3 library to connect to a sqlite database and I'm executing the SQL queries through pandas so that the results are returned as a pandas DataFrame. I'm also using matplotlib and seaborn for charting.
 
+**NOTE:** I'm not trying to answer any specific questions or do any particularly deep analysis, **the project is a just an excuse to run some SQL queries**.
+
 The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data.
 
 **NOTE:** In most instances I would actually do a lot of the data manipulation in pandas since it typically requires less code, however I've tried to make the examples more "SQL-heavy" here. Occasionally I'll show SQL and pandas versions of the same data manipulations to illustrate this point.
