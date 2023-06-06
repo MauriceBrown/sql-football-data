@@ -6,7 +6,7 @@ The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/bl
 
 ## Database schema overview
 
-The data used by the notebook is stored in a **sqlite** database file with the schema defined below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship).
+The data used by the notebook is stored in a **sqlite** database file with the schema defined below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). **NOTE:** Replationships to the "player" and "team" tables don't use the *actual* primary key of those tables, but the column used in the realtionship *is* unique in each table (i.e. we could make that the primary key of the table if we were to rebuild the database).
 
 ![DB Schema Diagram](https://github.com/MauriceBrown/sql-football-data/blob/main/DB%20Schema%20Diagram.png)
 
