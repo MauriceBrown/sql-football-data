@@ -1,12 +1,18 @@
 # European Football Data Analysis using SQL and pandas
 
-This data comes from a [Kaggle post](https://www.kaggle.com/datasets/hugomathien/soccer).
+## Purpose
 
-The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data using SQL, python, pandas, matplotlib and seaborn.
+This project was created as a demonstration of working with SQL. I'm using python's built in sqlite3 library to connect to a sqlite database and I'm executing the SQL queries through pandas so that the results are returned as a pandas DataFrame. I'm also using matplotlib and seaborn for charting.
+
+The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/blob/main/European%20Football%20Data%20Analysis.ipynb) in this repo walks through an exploration and analysis of this data.
+
+**NOTE:** In most instances I would actually do a lot of the data manipulation in pandas since it typically requires less code, however I've tried to make the examples more "SQL-heavy" here. Occasionally I'll show SQL and pandas versions of the same data manipulations to illustrate this point.
 
 ## Database schema overview
 
-The data used by the notebook is stored in a **sqlite** database file with the schema defined below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). A bi-dreictional arrow indicates that the related columns are not the *primary* key in **either** table.
+This dataset is single relational database with eight tables, containing data and metadata for European football matches from 2008 to 2016. The data comes from a [Kaggle post](https://www.kaggle.com/datasets/hugomathien/soccer).
+
+The database has a "snowflake" schema depicted in the schema diagram below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). **NOTE:** Replationships to the "player" and "team" tables don't use the *actual* primary key of those tables, but the column used in the realtionship *is* unique in each table (i.e. we could make that the primary key of the table if we were to rebuild the database).
 
 ![DB Schema Diagram](https://github.com/MauriceBrown/sql-football-data/blob/main/DB%20Schema%20Diagram.png)
 
