@@ -10,9 +10,9 @@ The [jupyter notebook file](https://github.com/MauriceBrown/sql-football-data/bl
 
 ## Database schema overview
 
-This data comes from a [Kaggle post](https://www.kaggle.com/datasets/hugomathien/soccer).
+This dataset is single relational database with eight tables, containing data and metadata for European football matches from 2008 to 2016. The data comes from a [Kaggle post](https://www.kaggle.com/datasets/hugomathien/soccer).
 
-The data used by the notebook is stored in a **sqlite** database file with the schema defined below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). **NOTE:** Replationships to the "player" and "team" tables don't use the *actual* primary key of those tables, but the column used in the realtionship *is* unique in each table (i.e. we could make that the primary key of the table if we were to rebuild the database).
+The database has a "snowflake" schema depicted in the schema diagram below. The arrows point in the direction of the *primary* key (i.e. the arrow head *faces* the primary key side of the relationship). **NOTE:** Replationships to the "player" and "team" tables don't use the *actual* primary key of those tables, but the column used in the realtionship *is* unique in each table (i.e. we could make that the primary key of the table if we were to rebuild the database).
 
 ![DB Schema Diagram](https://github.com/MauriceBrown/sql-football-data/blob/main/DB%20Schema%20Diagram.png)
 
